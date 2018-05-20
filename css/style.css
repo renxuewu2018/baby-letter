@@ -88,6 +88,30 @@ input[type="text"],input[type="password"]{
 	border-radius:25px;
 }
 
+
+.btn{
+	background:#e91e63;
+	padding:13px 0;
+	font-size:16px;
+	color:#fff;
+	cursor:pointer;
+	outline:none;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	width:100%;
+	border:none;
+	margin-top:25px;
+	border-radius:25px;
+}
+
+.btn:hover{
+	background:#081148;
+}
+
+
 textarea{
 	width:93.5%;
 	padding: 15px;
@@ -448,4 +472,39 @@ a.book.popup-with-zoom-anim.button-isi.zoomIn.animated:hover{
 		font-size: 12.5px;
 	}
 		
+}
+
+
+
+#sendLetterContent{
+	display: block;
+}
+
+#getLetterContent{
+	display: none;
+	height: 100%;
+}
+
+#get-title{
+	font-size:18px;
+	color:#000000;
+	margin:10px 0px 10px 0px;
+	text-align:left;
+	font-weight: 500;
+}
+
+
+#get-datetime{
+	font-size:12px;
+	color:#1377bd;
+	margin:10px 0px 10px 0px;
+	text-align:left;
+}
+
+#get-content{
+	font-size:16px;
+	line-height: 27px;
+	color:#2e2e2e;
+	margin:10px 0px 10px 0px;
+	text-align:left;
 }
